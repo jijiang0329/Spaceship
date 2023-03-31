@@ -1,0 +1,60 @@
+body{
+    width:50vw;
+    height: 50vh;
+    background-color:black;
+    background-image: url("img/night-sky.jpg");
+}
+#player {
+    position: absolute;
+    width:150px;
+    height:150px;
+    left:0px;
+    top:0px;
+    z-index:100;
+}
+#planet1, #planet2, #planet3 {
+    width:200px;
+    height:200px;
+    position: absolute;            
+    border-radius: 100px;
+    color:yellow;
+    text-align:center;
+}
+#planet1 {
+    top:250px;
+    left:0px;
+    background-color: purple;
+}
+#planet2{
+    top:50px;
+    left:450px;
+    background-color: blue;
+}
+#planet3{
+    top:400px;
+    left:400px;
+    background-color: yellowgreen;
+}
+#ufo {
+    width:150px;
+}
+#stats {
+    width:400px;
+    height:150px;
+    background-color:black;
+    position: fixed;
+    top:0px;
+    right:0px;
+    padding:10px;
+    
+}
+#messages{
+    width:400px;
+    height:150px;
+    text-align:left;
+    color:white;
+    font-size:32px;
+}
+h1{
+    color:yellow;
+}
