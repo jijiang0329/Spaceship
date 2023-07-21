@@ -217,7 +217,7 @@ function checkAll() {
     if(isBeenPlanet1 && isBeenPlanet2 && isBeenPlanet3) {
         printMessage("All planets are visited!");
         alert("YOU WON!");
-        
+        location.href;
 }
 }
 

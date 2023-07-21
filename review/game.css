@@ -7,7 +7,7 @@ body{
 #player {
     position: absolute;
     width:150px;
-    height:150px;
+    height:75px;
     left:0px;
     top:0px;
     z-index:100;
